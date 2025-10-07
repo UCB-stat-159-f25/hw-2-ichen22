@@ -1,0 +1,10 @@
+Prompt: "I want to remove the "conda-env" tag from the commit. Can you tell me how I can do that?"
+Output:
+"
+Run
+git tag -d conda-env
+git push origin :refs/tags/conda-env
+Check
+git tag
+git ls-remote --tags origin
+"
