@@ -3,6 +3,8 @@
 
 _This repository is public so that Binder can find it. All code and data is based on the original [LIGO Center for Open Science Tutorial Repository](https://github.com/losc-tutorial/LOSC_Event_tutorial). This repository is a class exercise that restructures the original LIGO code for improved reproducibility, as a homework assignment for the [Fall 2025 installment of UC Berkeley's Stat 159/259 course, _Reproducible and Collaborative Data Science](https://ucb-stat-159-f25.github.io/site/). Authorship of the original analysis code rests with the LIGO collaboration._
 
+This repository demonstrates how to reproduce the LIGO repository work in a cleaner structure. It contains the main analysis notebook, supporting data files, and the ligotools Python package used for reading and processing LIGO data. The included environment.yml file defines the conda environment, and the Binder badge below allows users to run the notebook interactively online.
+
 
 [![Binder](https://mybinder.org/badge_logo.svg)](
   https://mybinder.org/v2/gh/UCB-stat-159-f25/hw-2-ichen22/HEAD?labpath=LOSC_Event_tutorial.ipynb
